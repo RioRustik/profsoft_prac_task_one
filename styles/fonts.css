@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Larsseit";
+  src: local("Larsseit Regular"), local("Larsseit-Regular"),
+    url("../resources/fonts/Larsseit/Larsseit.ttf") format("truetype"),
+    url("../resources/fonts/Larsseit/Larsseit.woff") format("woff"),
+    url("../resources/fonts/Larsseit/Larsseit.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Larsseit";
+  src: local("Larsseit Medium"), local("Larsseit-Medium"),
+    url("../resources/fonts/Larsseit-Medium/Larsseit-Medium.ttf")
+      format("truetype"),
+    url("../resources/fonts/Larsseit-Medium/Larsseit-Medium.woff")
+      format("woff"),
+    url("../resources/fonts/Larsseit-Medium/Larsseit-Medium.woff2")
+      format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Larsseit";
+  src: local("Larsseit Bold"), local("Larsseit-Bold"),
+    url("../resources/fonts/Larsseit-Bold/Larsseit-Bold.ttf") format("truetype"),
+    url("../resources/fonts/Larsseit-Bold/Larsseit-Bold.woff") format("woff"),
+    url("../resources/fonts/Larsseit-Bold/Larsseit-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}

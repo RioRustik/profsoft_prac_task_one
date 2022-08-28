@@ -1,0 +1,8 @@
+@import "fonts.css";
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Larsseit", sans-serif;
+}

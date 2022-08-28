@@ -1,0 +1,36 @@
+.home {
+  min-width: 44vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #62d0df;
+}
+.home-content {
+  padding: 10vw 0 7vw 13.1vw;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  width: 44vw;
+  line-height: 2.2vw;
+}
+.home-content p:first-child {
+  font-size: 2.64vw;
+  font-weight: 700;
+  padding-bottom: 4vw;
+}
+.home-content p span:first-child {
+  font-size: 1.3vw;
+  font-weight: 700;
+}
+.home-content p span:last-child {
+  font-size: 1.1vw;
+  font-weight: 400;
+}
+.home-image {
+  display: flex;
+  min-height: 43vw;
+  min-width: 38.14vw;
+  background: url(../resources/img/home.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

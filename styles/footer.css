@@ -1,0 +1,62 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-image {
+  display: flex;
+  min-height: 27.82vw;
+  min-width: 41.73vw;
+  background: url(../resources/img/Contact_2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.footer-info {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info div {
+  width: 33%;
+  font-size: 1vw;
+  font-weight: 400;
+  color: #22356f81;
+}
+.footer-info div > p:first-child {
+  margin-top: 7.17vw;
+  padding-bottom: 4vw;
+  color: #22356f;
+  font-size: 1vw;
+  font-weight: 700;
+}
+.some-info {
+  margin-left: 5vw;
+  padding-right: 5vw;
+  line-height: 1.5vw;
+}
+.enfold-health p {
+  padding-right: 7vw;
+}
+address {
+  all: initial;
+}
+.footer-law {
+  display: flex;
+  align-items: center;
+  height: 5.86vw;
+  background-color: #62d0df;
+  color: #ffffff;
+  padding-left: 14.2vw;
+  font-weight: 700;
+  font-size: 1vw;
+}
+.footer-law::before {
+  content: "©";
+  display: inline-block;
+  position: absolute;
+  transform: translate(-1.5vw, 0.3vw);
+}
